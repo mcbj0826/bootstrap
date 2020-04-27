@@ -2,6 +2,15 @@
     color: #97c93E;
 }
 
+.btn-platzi{
+    background-color: #97c93e;
+    color: white;
+}
+
+.btn-platzi:hover{
+    background-color: #82ad36 ;
+}
+
 #header img{
     width: 80px;
 }
@@ -25,10 +34,6 @@
     background-color: rgba(0,0 0,0,0.5);
     color: white;
     z-index: 1;
-}
-#carousel .overlay a{
-  color: green;
-  font-weight: bold;
 }
 
 #carousel .overlay .container,
