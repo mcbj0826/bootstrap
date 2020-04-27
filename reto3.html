@@ -8,35 +8,33 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
-        .col ,.col-3, .col-sm-6, .col-sm-12{
+         body{
+            /* width:1024px; */
+            margin: 20px auto;
+        } 
+        .col, .col-sm-1, .col-sm-12, .offset-6 , .col-md-3, .col-md-4 , .offset-md-3, .col-md-5, .offset-md-0{
             border: 1px solid white;
-            background: #feca6e;
+            background:#d62f32;
             height: 120px;
+            color:white;
         }
     </style>
     <title>Hello, world!</title>
   </head>
   <body>
       <div class="container">
-        <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">Fila1/Col1</div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">Fila1/Col2</div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">Fila1/Col3</div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">Fila1/Col4</div>
-        </div>
-        <div class="row">
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col1</div>
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col2</div>
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col3</div>
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col4</div>
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col5</div>
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col6</div>
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col7</div>
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col8</div>
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col9</div>
-            <div class="col-lg  col-sm-12 col-12">Fila2/Col10</div>
-        </div>
-    </div>
+          <div class="row">
+              <div class= "col-sm-12 offset-md-0 col-lg-7 offset-md-5">Fila 1/Col1</div>
+          </div>
+          <div class="row">
+            <div class="col col-lg-8 offset-lg-2 col-sm-8">Fila 2/Col1</div>
+          </div>
+          <div class="row">
+              <div class="col-md-4 offset-md">Fila 3/Col1</div>
+          </div>
+     
+        
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
